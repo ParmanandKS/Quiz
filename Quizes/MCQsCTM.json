@@ -1,0 +1,566 @@
+{
+    "id": "Computer Troubleshooting and Maintenance",
+    "title": "Computer Troubleshooting and Maintenance",
+    "description": "Unit-wise MCQs for Computer Hardware, Operating Systems, Security, and Troubleshooting",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Computer Systems & Hardware Architecture",
+        "2": "Input and Output Devices",
+        "3": "Operating Systems & Software",
+        "4": "Malware and Security Basics",
+        "5": "Troubleshooting and Maintenance"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Which type of computer is primarily designed for high-end scientific simulations and weather forecasting?",
+            "options": [
+                "Workstation",
+                "Supercomputer",
+                "Desktop Computer",
+                "Tablet"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which component temporarily stores frequently accessed instructions for faster CPU processing?",
+            "options": [
+                "HDD",
+                "Cache Memory",
+                "Power Supply",
+                "Optical Drive"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which bus carries memory location information from CPU to RAM?",
+            "options": [
+                "Data Bus",
+                "Expansion Bus",
+                "Address Bus",
+                "Control Bus"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which cache level is usually shared among multiple CPU cores?",
+            "options": [
+                "L1 Cache",
+                "Register Cache",
+                "L2 Cache",
+                "L3 Cache"
+            ],
+            "correctIndex": 3,
+            "unit": 1
+        },
+        {
+            "question": "In a processor pipeline architecture, multiple instructions are:",
+            "options": [
+                "Stored permanently",
+                "Executed simultaneously in stages",
+                "Converted into analog signals",
+                "Processed only in RAM"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which processor feature directly affects the number of instructions executed per second?",
+            "options": [
+                "Cache Color",
+                "Clock Speed",
+                "Screen Resolution",
+                "Heat Sink Size"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which memory type loses all stored data after power failure?",
+            "options": [
+                "ROM",
+                "EEPROM",
+                "RAM",
+                "SSD"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "The BIU (Bus Interface Unit) mainly handles:",
+            "options": [
+                "Graphics Rendering",
+                "Data transfer between CPU and peripherals",
+                "Keyboard input processing",
+                "Sound generation"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which statement about L1 cache is correct?",
+            "options": [
+                "It is slower than RAM",
+                "It is the largest cache memory",
+                "It is closest to CPU cores",
+                "It is external to CPU"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which architecture defines the instruction set supported by a CPU?",
+            "options": [
+                "GPU Architecture",
+                "ISA",
+                "RAID",
+                "BIOS"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which interface is considered hot-swappable for keyboards?",
+            "options": [
+                "PS/2",
+                "Serial Port",
+                "USB",
+                "VGA"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which printer technology uses powdered toner instead of liquid ink?",
+            "options": [
+                "Dot Matrix Printer",
+                "Thermal Printer",
+                "Inkjet Printer",
+                "Laser Printer"
+            ],
+            "correctIndex": 3,
+            "unit": 2
+        },
+        {
+            "question": "Which display technology works using an electron beam striking a phosphor screen?",
+            "options": [
+                "OLED",
+                "CRT",
+                "LCD",
+                "LED"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which wireless keyboard technology requires direct line-of-sight communication?",
+            "options": [
+                "Bluetooth",
+                "RF",
+                "Wi-Fi",
+                "Infrared"
+            ],
+            "correctIndex": 3,
+            "unit": 2
+        },
+        {
+            "question": "DPI in printers mainly refers to:",
+            "options": [
+                "Data Processing Interval",
+                "Dots Per Inch",
+                "Digital Print Interface",
+                "Display Pixel Index"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which printer component bonds toner permanently onto paper using heat?",
+            "options": [
+                "Drum Unit",
+                "Ink Chamber",
+                "Fuser Assembly",
+                "Transfer Roller"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which display parameter determines image sharpness?",
+            "options": [
+                "Refresh Rate",
+                "Contrast Ratio",
+                "Resolution",
+                "Aspect Ratio"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which device converts hard-copy documents into digital format?",
+            "options": [
+                "Plotter",
+                "Scanner",
+                "Barcode Reader",
+                "Joystick"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "RF keyboards are preferred over infrared keyboards because RF:",
+            "options": [
+                "Consumes no power",
+                "Requires wired support",
+                "Does not require direct line of sight",
+                "Works only with desktops"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "During laser printing, the photoreceptor drum primarily:",
+            "options": [
+                "Stores ink permanently",
+                "Creates the image electrostatically",
+                "Melts the toner",
+                "Transfers paper mechanically"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which step is usually performed before OS installation begins?",
+            "options": [
+                "GPU Calibration",
+                "BIOS Overclocking",
+                "System Requirement Verification",
+                "Registry Editing"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which operating system is widely known for being open-source?",
+            "options": [
+                "macOS",
+                "Linux",
+                "DOS",
+                "iOS"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which file system is commonly associated with Windows installations?",
+            "options": [
+                "EXT4",
+                "FAT12",
+                "NTFS",
+                "HFS+"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "CLI stands for:",
+            "options": [
+                "Central Logic Interface",
+                "Command Line Interface",
+                "Computer Link Integration",
+                "Command Layer Instruction"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which software is primarily used as a Content Management System (CMS)?",
+            "options": [
+                "Photoshop",
+                "Dreamweaver",
+                "WordPress",
+                "AutoCAD"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Partitioning a disk during OS setup mainly helps in:",
+            "options": [
+                "Increasing monitor resolution",
+                "Organizing storage logically",
+                "Cooling the processor",
+                "Expanding cache memory"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which operating system is proprietary to Apple computers?",
+            "options": [
+                "Linux Mint",
+                "Ubuntu",
+                "Windows Server",
+                "macOS"
+            ],
+            "correctIndex": 3,
+            "unit": 3
+        },
+        {
+            "question": "In command-line environments, commands are generally executed through:",
+            "options": [
+                "BIOS ROM",
+                "Shell Interpreter",
+                "Device Drivers",
+                "Compiler Cache"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which feature of WordPress allows additional functionality without changing the core software?",
+            "options": [
+                "BIOS Modules",
+                "Drivers",
+                "Plugins",
+                "Firmware Packs"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "During OS installation, boot priority is configured mainly through:",
+            "options": [
+                "GPU Firmware",
+                "BIOS/UEFI Settings",
+                "Task Scheduler",
+                "Device Manager"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Malware is primarily designed to:",
+            "options": [
+                "Improve processor efficiency",
+                "Protect encrypted data",
+                "Damage or gain unauthorized access",
+                "Increase RAM capacity"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which malware type replicates itself without attaching to another program?",
+            "options": [
+                "Trojan",
+                "Worm",
+                "Spyware",
+                "Adware"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "A Trojan horse appears to users as:",
+            "options": [
+                "A hardware driver",
+                "Legitimate software",
+                "Network protocol",
+                "System firmware"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which security measure filters incoming and outgoing network traffic?",
+            "options": [
+                "BIOS",
+                "Firewall",
+                "Cache Controller",
+                "Heat Sink"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Phishing attacks are mainly intended to:",
+            "options": [
+                "Improve network speed",
+                "Encrypt operating systems",
+                "Steal sensitive user information",
+                "Repair corrupted sectors"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which malware secretly records user activities such as keystrokes?",
+            "options": [
+                "Worm",
+                "Spyware",
+                "Rootkit",
+                "Bootloader"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Antivirus software primarily works by:",
+            "options": [
+                "Increasing CPU clock speed",
+                "Monitoring and removing malicious code",
+                "Formatting partitions automatically",
+                "Managing RAM timing"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Ransomware mainly affects users by:",
+            "options": [
+                "Reducing internet speed",
+                "Encrypting files and demanding payment",
+                "Disabling printer drivers only",
+                "Damaging monitor pixels"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which authentication method is generally considered strongest?",
+            "options": [
+                "Single-character password",
+                "Default credentials",
+                "Multi-factor authentication",
+                "Guest account login"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "A rootkit is particularly dangerous because it:",
+            "options": [
+                "Improves hardware performance",
+                "Hides malicious processes deeply within the system",
+                "Repairs corrupted drivers",
+                "Upgrades BIOS automatically"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which troubleshooting step should generally be performed first?",
+            "options": [
+                "Replace the motherboard",
+                "Identify the problem symptoms",
+                "Format the hard disk",
+                "Install antivirus software"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "A computer that powers on but shows no display may have an issue with:",
+            "options": [
+                "CPU fan sticker",
+                "Monitor connection or RAM",
+                "Keyboard layout",
+                "Browser cache"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Preventive maintenance mainly aims to:",
+            "options": [
+                "Increase malware attacks",
+                "Avoid future hardware/software failures",
+                "Remove operating systems",
+                "Reduce processor cores"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Excessive dust inside a computer can primarily lead to:",
+            "options": [
+                "Faster boot time",
+                "Improved cooling",
+                "Overheating issues",
+                "Increased cache size"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "Which tool is commonly used to test power supply voltages?",
+            "options": [
+                "Oscilloscope",
+                "Multimeter",
+                "Crimping Tool",
+                "Punch Tool"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Blue Screen of Death (BSOD) in Windows is commonly associated with:",
+            "options": [
+                "Critical system or driver errors",
+                "Printer paper jams",
+                "Internet disconnection only",
+                "Keyboard backlight issues"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "Which maintenance task improves system performance by organizing fragmented data on HDDs?",
+            "options": [
+                "Encryption",
+                "Formatting BIOS",
+                "Disk Defragmentation",
+                "Partition Mirroring"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "Thermal paste between CPU and heat sink is mainly used to:",
+            "options": [
+                "Increase processor voltage",
+                "Improve heat transfer",
+                "Protect against malware",
+                "Reduce monitor flicker"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which symptom most strongly indicates a failing hard disk?",
+            "options": [
+                "Faster application launch",
+                "Clicking noises and frequent crashes",
+                "Brighter display output",
+                "Lower RAM usage"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Safe Mode in Windows is mainly used for:",
+            "options": [
+                "Gaming optimization",
+                "Running advanced graphics software",
+                "Troubleshooting startup and driver problems",
+                "Increasing internet bandwidth"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        }
+    ]
+}

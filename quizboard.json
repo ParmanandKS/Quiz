@@ -1,6 +1,27 @@
 {
   "quizzes": [
     {
+      "id": "CTMMCQs",
+      "title": "Computer Troubleshooting and Maintenance - Important MCQs",
+      "file": "Quizes/MCQsCTM.json",
+      "questions": 50,
+      "description": "Unit-wise MCQs for Computer Hardware, Operating Systems, Security, and Troubleshooting"
+    },
+    {
+      "id": "IoT-Advance",
+      "title": "IoT Advance MCQs",
+      "file": "Quizes/IoTMCQ.json",
+      "questions": 50,
+      "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
+    },
+    {
+      "id": "IOTPYQ",
+      "title": "Internet of Things PYQ",
+      "file": "Quizes/PyqIoT.json",
+      "questions": 21,
+      "description": "IoT Advance Diploma Exam"
+    },
+    {
       "id": "CPMCQs",
       "title": "Programming in C - Important MCQs",
       "file": "Quizes/CProgrammingMCQ.json",
@@ -34,20 +55,6 @@
       "file": "Quizes/EGovMCQ.json",
       "questions": 40,
       "description": "Unit-wise 40 MCQs for E-Governance Concepts and Applications"
-    },
-    {
-      "id": "IoT-Advance",
-      "title": "IoT Advance MCQs",
-      "file": "Quizes/IoTMCQ.json",
-      "questions": 50,
-      "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
-    },
-    {
-      "id": "IOTPYQ",
-      "title": "Internet of Things PYQ",
-      "file": "Quizes/PyqIoT.json",
-      "questions": 21,
-      "description": "IoT Advance Diploma Exam"
     },
     {
       "id": "software engineering",
